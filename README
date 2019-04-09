@@ -1,0 +1,25 @@
+﻿Software : Jupyter Notebook
+Libraries: 
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+import xgboost as xgb
+from xgboost import plot_importance
+import random
+from sklearn.preprocessing import Imputer
+from sklearn.preprocessing import StandardScaler
+import seaborn as sns
+from sklearn.model_selection import GridSearchCV
+from sklearn.model_selection import StratifiedKFold
+from sklearn.model_selection import TimeSeriesSplit
+from sklearn.feature_selection import SelectKBest
+from sklearn.linear_model import Ridge
+from sklearn.linear_model import RidgeCV
+from sklearn.linear_model import Lasso
+from sklearn.linear_model import LassoCV
+from sklearn.model_selection import cross_val_score
+from xgboost.sklearn import XGBClassifier
+import operator
+import datetime
